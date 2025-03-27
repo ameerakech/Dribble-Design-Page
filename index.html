@@ -23,10 +23,10 @@
             </ul>
         </nav>
 
-                <div class="login-signup-button">
-                    <button type="button" id="login-button">Log in</button>
-                    <button type="button" id="signup-button">Sign Up</button>
-                </div>
+        <div class="login-signup-button">
+            <button type="button" id="login-button">Log in</button>
+            <button type="button" id="signup-button">Sign Up</button>
+        </div>
     </div>
 
     <div class="container">
@@ -92,15 +92,18 @@
             <div class="rogers-details">
                 <div class="technical-assistance">
                     <h3>Roger Westervelt</h3>
-                    <p>Technical assistant<br>Oculus</p>
+                    <p id="technical">Technical assistant<br>Oculus</p>
                 </div>
                 <div class="working-days">
-                    <p>22<br>Worked days</p>
+                    <p id="days-of-work">22<br>Worked days</p>
                 </div>
             </div>
 
-            <p>&#8364 1,500<br>Monthly salary</p>
-            <p>&#8364 750<br>Salary available</p>
+            <p id="monthly-sal">&#8364 1,500<br>Monthly salary</p>
+            <p id="available-sal">&#8364 750<br>Salary available</p>
+
+            <img src="images/man beards.jpeg" id="mans-img">
+
         </div>
     </div>
 
@@ -119,7 +122,7 @@
                 <path fill="#03a9f4" d="M6 26H22V42H6z" transform="rotate(-180 14 34)"></path>
             </svg>
             <div class="microsoft-text">
-                <p>Microsoft</p>
+                <p id>Microsoft</p>
             </div>
         </div>
 
@@ -179,7 +182,7 @@
                 </path>
             </svg>
             <div class="slack-text">
-                <p>Slack</p>
+                <p id>Slack</p>
             </div>
         </div>
     </div>
@@ -219,7 +222,7 @@
                 </div>
             </div>
         </div>
-        <div class="account">
+        <div class="account-create">
             <div class="create-account">
                 <P>How to create an account <br>
                     Study stream via live time with our app</P>
@@ -233,21 +236,62 @@
                 <img src="images/anchor.png" id="anchor">
                 <p>Study With me<br>
                     Study stream value time with our apps</p>
-                <button>Join</button>
+                <button type="button" id="join-button">Join</button>
             </div>
         </div>
     </div>
     <h5>We are helping <span id="customer">customer<br> gobally </span>every time</h5>
-    <p>Mobile App Interface</p>
-    <p>Deski deliverd blazing fast perform striking<br>
-        word solution our company will be best<br>
-        ever soon</p>
+    <div class="mobile-interface">
+        <div class="mobile-app">
+            <p>Mobile App Interface<br>
+                Deski deliverd blazing fast perform striking<br>
+                word solution our company will be best<br>
+                ever soon</p>
 
-    <button type="button">Know More</button>
+            <button type="button">Know More</button>
+        </div>
+        <div class="settings">
+            <div class="settings-account">
+                <div class="account">
+                    <p>Settings</p>
+                    <p>Account<br>
+                        <i class="fa-solid fa-address-book"></i>
+                        Tim David<br>
+                        Designer
+                    </p>
 
-    <h6><span>Some words</span> from our clients</h6>
+                    <p>Settings</p>
+                    <img src="images/frown.png" alt="">
+                    <p>Language</p>
+                </div>
+                <div class="authentication">
+                    <div class="boost-app">
+                        <p>Boost social app to make<br>new friends</p>
+                        <div class="login-signup">
+                        <button type="button" id="login">Login</button>
+                        <button type="button" id="signup">Sign up</button>
+                    </div>
+                    </div>
+                    <div class="arrow-notification">
+                        <img src="images/arrow.png" id="arrow">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
+                            viewBox="0 0 50 50">
+                            <path
+                                d="M 25 0 C 22.800781 0 21 1.800781 21 4 C 21 4.515625 21.101563 5.015625 21.28125 5.46875 C 15.65625 6.929688 12 11.816406 12 18 C 12 25.832031 10.078125 29.398438 8.25 31.40625 C 7.335938 32.410156 6.433594 33.019531 5.65625 33.59375 C 5.265625 33.878906 4.910156 34.164063 4.59375 34.53125 C 4.277344 34.898438 4 35.421875 4 36 C 4 37.375 4.84375 38.542969 6.03125 39.3125 C 7.21875 40.082031 8.777344 40.578125 10.65625 40.96875 C 13.09375 41.472656 16.101563 41.738281 19.40625 41.875 C 19.15625 42.539063 19 43.253906 19 44 C 19 47.300781 21.699219 50 25 50 C 28.300781 50 31 47.300781 31 44 C 31 43.25 30.847656 42.535156 30.59375 41.875 C 33.898438 41.738281 36.90625 41.472656 39.34375 40.96875 C 41.222656 40.578125 42.78125 40.082031 43.96875 39.3125 C 45.15625 38.542969 46 37.375 46 36 C 46 35.421875 45.722656 34.898438 45.40625 34.53125 C 45.089844 34.164063 44.734375 33.878906 44.34375 33.59375 C 43.566406 33.019531 42.664063 32.410156 41.75 31.40625 C 39.921875 29.398438 38 25.832031 38 18 C 38 11.820313 34.335938 6.9375 28.71875 5.46875 C 28.898438 5.015625 29 4.515625 29 4 C 29 1.800781 27.199219 0 25 0 Z M 25 2 C 26.117188 2 27 2.882813 27 4 C 27 5.117188 26.117188 6 25 6 C 23.882813 6 23 5.117188 23 4 C 23 2.882813 23.882813 2 25 2 Z M 27.34375 7.1875 C 32.675781 8.136719 36 12.257813 36 18 C 36 26.167969 38.078125 30.363281 40.25 32.75 C 41.335938 33.941406 42.433594 34.6875 43.15625 35.21875 C 43.515625 35.484375 43.785156 35.707031 43.90625 35.84375 C 44.027344 35.980469 44 35.96875 44 36 C 44 36.625 43.710938 37.082031 42.875 37.625 C 42.039063 38.167969 40.679688 38.671875 38.9375 39.03125 C 35.453125 39.753906 30.492188 40 25 40 C 19.507813 40 14.546875 39.753906 11.0625 39.03125 C 9.320313 38.671875 7.960938 38.167969 7.125 37.625 C 6.289063 37.082031 6 36.625 6 36 C 6 35.96875 5.972656 35.980469 6.09375 35.84375 C 6.214844 35.707031 6.484375 35.484375 6.84375 35.21875 C 7.566406 34.6875 8.664063 33.941406 9.75 32.75 C 11.921875 30.363281 14 26.167969 14 18 C 14 12.261719 17.328125 8.171875 22.65625 7.21875 C 23.320313 7.707031 24.121094 8 25 8 C 25.886719 8 26.679688 7.683594 27.34375 7.1875 Z M 21.5625 41.9375 C 22.683594 41.960938 23.824219 42 25 42 C 26.175781 42 27.316406 41.960938 28.4375 41.9375 C 28.792969 42.539063 29 43.25 29 44 C 29 46.222656 27.222656 48 25 48 C 22.777344 48 21 46.222656 21 44 C 21 43.242188 21.199219 42.539063 21.5625 41.9375 Z">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="angel-img-prof">
+                        <img src="images/woman2.jpeg" id="profile-pic">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h6><span id="some-words">Some words</span> from our clients</h6>
     <div class="peoples-details">
         <div class="edwins-details">
+            <img src="images/woman2.jpeg" id="edwins-profile">
             <p>Edwin Zohir<br>Businessman</p>
             <p>We make all payments easier and simpler.Receive and <br>
                 send payment funds without cash.Dpay makes moving<br>
@@ -255,6 +299,7 @@
         </div>
 
         <div class="jecsons-details">
+            <img src="images/lady-in-green.jpeg" id="jecsons-profile">
             <p>Jecson Mokbul<br>Businessman</p>
             <p>We make all payments easier and simpler.Receive and <br>
                 send payment funds without cash.Dpay makes moving<br>
@@ -262,14 +307,42 @@
         </div>
     </div>
     <footer>
-       
-        <div class="footerlog">
 
-            <i class="fa-brands fa-twitter" id="twitter"></i>
-            <i class="fa-brands fa-facebook" id="facebook"></i>
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="48" height="48" viewBox="0 0 48 48">
-                <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fd5"></stop><stop offset=".328" stop-color="#ff543f"></stop><stop offset=".348" stop-color="#fc5245"></stop><stop offset=".504" stop-color="#e64771"></stop><stop offset=".643" stop-color="#d53e91"></stop><stop offset=".761" stop-color="#cc39a4"></stop><stop offset=".841" stop-color="#c837ab"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813" gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4168c9"></stop><stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop></radialGradient><path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)" d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z"></path><path fill="#fff" d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z"></path><circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle><path fill="#fff" d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z"></path>
-                </svg>
+        <div class="footerlog">
+            <div class="icons-footer">
+            <i class="fa-brands fa-twitter" id="twitter-icon"></i>
+            <i class="fa-brands fa-facebook" id="facebook-icon"></i>
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="40" height="40" viewBox="0 0 48 48">
+                <radialGradient id="yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1" cx="19.38" cy="42.035" r="44.899"
+                    gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#fd5"></stop>
+                    <stop offset=".328" stop-color="#ff543f"></stop>
+                    <stop offset=".348" stop-color="#fc5245"></stop>
+                    <stop offset=".504" stop-color="#e64771"></stop>
+                    <stop offset=".643" stop-color="#d53e91"></stop>
+                    <stop offset=".761" stop-color="#cc39a4"></stop>
+                    <stop offset=".841" stop-color="#c837ab"></stop>
+                </radialGradient>
+                <path fill="url(#yOrnnhliCrdS2gy~4tD8ma_Xy10Jcu1L2Su_gr1)"
+                    d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+                </path>
+                <radialGradient id="yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2" cx="11.786" cy="5.54" r="29.813"
+                    gradientTransform="matrix(1 0 0 .6663 0 1.849)" gradientUnits="userSpaceOnUse">
+                    <stop offset="0" stop-color="#4168c9"></stop>
+                    <stop offset=".999" stop-color="#4168c9" stop-opacity="0"></stop>
+                </radialGradient>
+                <path fill="url(#yOrnnhliCrdS2gy~4tD8mb_Xy10Jcu1L2Su_gr2)"
+                    d="M34.017,41.99l-20,0.019c-4.4,0.004-8.003-3.592-8.008-7.992l-0.019-20	c-0.004-4.4,3.592-8.003,7.992-8.008l20-0.019c4.4-0.004,8.003,3.592,8.008,7.992l0.019,20	C42.014,38.383,38.417,41.986,34.017,41.99z">
+                </path>
+                <path fill="#fff"
+                    d="M24,31c-3.859,0-7-3.14-7-7s3.141-7,7-7s7,3.14,7,7S27.859,31,24,31z M24,19c-2.757,0-5,2.243-5,5	s2.243,5,5,5s5-2.243,5-5S26.757,19,24,19z">
+                </path>
+                <circle cx="31.5" cy="16.5" r="1.5" fill="#fff"></circle>
+                <path fill="#fff"
+                    d="M30,37H18c-3.859,0-7-3.14-7-7V18c0-3.86,3.141-7,7-7h12c3.859,0,7,3.14,7,7v12	C37,33.86,33.859,37,30,37z M18,13c-2.757,0-5,2.243-5,5v12c0,2.757,2.243,5,5,5h12c2.757,0,5-2.243,5-5V18c0-2.757-2.243-5-5-5H18z">
+                </path>
+            </svg>
+        </div>
             <div class="products">
                 <ul>
                     <li> Our Products</li><br>
@@ -312,7 +385,7 @@
                 </ul>
             </div>
         </div>
-        
+
     </footer>
 </body>
 

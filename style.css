@@ -4,9 +4,13 @@
     gap: 2cm;
     margin-left: 190px;
     margin-top: 100px;
+    font-size: 150%;
+
     
 }
-
+.navigation{
+   background-color: rgba(0, 255, 255, 0.144);
+}
 .navigation{
     display: flex;
 }
@@ -36,6 +40,7 @@ h1{
 .container{
     display: flex;
     gap: 8cm;
+    background-color: rgba(0, 255, 255, 0.144);
 }
 #you-charge{
     color:red;
@@ -49,6 +54,16 @@ display: flex;
 margin-left: 6cm;
 gap: 3cm;
 }
+#text{
+    color: blue;
+    font-size: 130%;
+}
+#mans-img{
+    border-radius: 10px;
+    border: solid 1px;
+    margin-left:100px;
+    
+}
 #different-platform{
     margin-left: 6cm;
     font-size: 120%;
@@ -57,13 +72,15 @@ gap: 3cm;
 .icon-text{
     display:flex;
     border: solid 1px;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 3cm;
 }
 .playstore-text{
     display:flex;
     border: solid 1px;
     border-radius: 15px; 
 }
+
 h2{
     text-align: center;
     margin-top: 2cm;
@@ -89,6 +106,17 @@ h2{
 }
 .rogers{
     border: solid;
+    width: 12cm;
+    rotate: -10deg;
+    margin-top: 20px
+
+    
+}
+#technical, #days-of-work{
+font-size: 130%;
+}
+#monthly-sal,#available-sal{
+    font-size: 130%;
 }
 .microsoft-icon{
     display: flex;
@@ -160,7 +188,10 @@ h6{
 
 }
 
-.account{
+.account-create{
+border: solid;
+width: 10cm;
+
 
 }
 .activities{
@@ -174,18 +205,31 @@ h6{
     border: solid blue;
     width: 3cm;
     height: 3cm;
+    margin-left: 12px;
+    margin-top: 1cm;
     
 }
 #avatar-right{
     border: solid blue;
     border-radius: 50%;
     width: 3cm;
-    margin-top: 2cm;
+    margin-top: 3cm;
+
+}
+#join-button{
+    padding: 5px;
+    width: 3cm;
+    border-radius: 15px;
+    height: 1.5cm;
+    margin-left: 5px;
+    background-color: pink;
+    font-size: 100%;
 
 }
 
 .create-account{
     border: solid white;
+   
 }
 h4{
  font-size:180%; 
@@ -222,12 +266,104 @@ h5{
     margin-top: 3cm;
     border: solid;
     gap: 3cm;
+    background-color: navy;
+    color: white;
 
   }
 
   .products{
-    margin-left: 420px;
+    margin-left: 220px;
   }
-  #facebook{
+  #edwins-profile{
+    border-radius: 50%;
+    width: 3cm;
+    height: 3cm
+  }
+  #jecsons-profile{
+    border-radius: 50%;
+    width: 3cm;
+    height: 3cm
+  }
+.account{
+    border: solid 1px;
+    width: 4cm;
+    rotate: 10deg;
+    border-radius: 15px;
+}
+
+  .mobile-interface{
+    display: flex;
+    gap: 9cm;
+  }
+  .mobile-app{
+    margin-left: 150px;
+    font-size: 150%;
+  }
+  .settings-account{
+    display: flex;
+    gap: 2cm;
+  }
+  .authentication{
+    rotate: 10deg;
+    border: solid 1px;
+    border-radius: 15px;
+    
+    
+      }
+.login-signup{
+    margin-top: 20px;
+    
+}
+  #signup{
+    padding: 5px;
+    width: 3cm;
+    border-radius: 15px;
+    height: 1.5cm;
+    margin-left: 5px;
+    background-color: pink;
+    font-size: 100%;
+
+  }
+  #login{
+    padding: 5px;
+    width: 3cm;
+    border-radius: 15px;
+    height: 1.5cm;
+    margin-left: 5px;
+    font-size: 100%;
+
+  }
+  #profile-pic{
+    border-radius: 50%;
+    width: 3cm;
+    height: 3cm;
+    margin-left: 30px;
     
   }
+  .arrow-notification{
+    display: flex;
+    margin-top: 40px;
+    gap: 2cm;
+  }
+  #some-words{
+    color: red;
+    
+  }
+  h6{
+    font-size: 200%;
+  }
+
+.icons-footer{
+display: flex;
+gap: 2cm;
+}
+
+@media only screen and (max-width: 600px) 
+    .navigation {grid-area: 1 / span 6;}
+    .container {grid-area: 2 / span 6;}
+    .icon-img {grid-area: 3 / span 6;}
+    .user-features {grid-area: 4 / span 6;}
+    .footerlog {grid-area: 5 / span 6;}
+
+
+
