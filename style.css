@@ -1,0 +1,233 @@
+ nav ul{
+    list-style: none;
+    display: flex;
+    gap: 2cm;
+    margin-left: 190px;
+    margin-top: 100px;
+    
+}
+
+.navigation{
+    display: flex;
+}
+.login-signup-button{
+    margin-top: 2cm;
+    margin-left: 3cm;
+    padding: 5px;
+    word-spacing: 2cm;
+}
+#login-button{
+    padding: 5px;
+    font-size: x-large;
+    border: none;
+}
+#signup-button{
+    padding: 15px;
+    border-radius: 15px;
+    background-color: palevioletred;
+    color: white;
+    font-weight: bold;
+    font-size: 95%;
+}
+h1{
+    color: navy;
+
+}
+.container{
+    display: flex;
+    gap: 8cm;
+}
+#you-charge{
+    color:red;
+}
+.improve-your-charge{
+    margin-left: 250px;
+    font-size: 190%;
+}
+.icons{
+display: flex;
+margin-left: 6cm;
+gap: 3cm;
+}
+#different-platform{
+    margin-left: 6cm;
+    font-size: 120%;
+}
+
+.icon-text{
+    display:flex;
+    border: solid 1px;
+    border-radius: 10px;
+}
+.playstore-text{
+    display:flex;
+    border: solid 1px;
+    border-radius: 15px; 
+}
+h2{
+    text-align: center;
+    margin-top: 2cm;
+}
+.icon-img{
+    display: flex;
+    gap: 2cm;
+    margin-left: 450px;
+}
+.about-roger{
+    display: flex;
+    gap: 1cm;
+}
+.rogers-details{
+    display: flex;
+    gap: 2cm;
+}
+#rogers-profile{
+    border:solid;
+    border-radius:50%;
+    width: 3cm;
+    height: 3cm;
+}
+.rogers{
+    border: solid;
+}
+.microsoft-icon{
+    display: flex;
+}
+.trello-icon{
+    display: flex;
+}
+.dropbox-icon{
+    display: flex;
+}
+.slack-icon{
+    display:flex;
+}
+#google{
+    width: 150px;
+}
+.dropbox-icon,.trello-icon,.slack-icon, .microsoft-icon{
+    margin-top: 45px;
+}
+
+.user-features{
+    display: flex;
+    gap: 5cm;
+    margin-top: 2cm;
+}
+.easy-interface{
+    margin-left: 450px;
+    border: solid;
+    border-color: pink;
+    padding: 2px;
+    width: 14%;
+    text-align: center;
+    margin-top: 0.5cm;
+
+}
+ 
+#product{
+    color: red;
+
+}
+h3{
+    text-align: center;
+    font-size: 150%;
+}
+
+.user-activities{
+    display: flex;
+    gap: 5cm;
+}
+
+.peoples-details{
+    display: flex;
+    gap: 5cm;
+    margin-left: 400px;
+}
+
+h6{
+    font-size: 130%;
+    text-align: center;
+}
+.edwins-details{
+    border: solid pink;
+    font-size: 130%;
+    border-radius: 15px;
+    width: 12cm;
+}
+.jecsons-details{
+    font-size: 130%;
+
+}
+
+.account{
+
+}
+.activities{
+    display: flex;
+    gap: 10cm;
+    margin-top: 4cm;
+    margin-left: 130px;
+}
+#avatar-left{
+    border-radius: 50%;
+    border: solid blue;
+    width: 3cm;
+    height: 3cm;
+    
+}
+#avatar-right{
+    border: solid blue;
+    border-radius: 50%;
+    width: 3cm;
+    margin-top: 2cm;
+
+}
+
+.create-account{
+    border: solid white;
+}
+h4{
+ font-size:180%; 
+}
+#numbers{
+    color: red;
+}
+.avatar-img{
+    display: flex;
+    gap: 2cm;
+}
+.engagement{
+font-size: 180%;
+font-weight: bold;
+}
+.user-engagement{
+    font-size: 180%;
+    font-weight: bold;
+}
+h5{
+    font-size: 200%;
+    text-align: center;
+}
+#customer{
+    color: red;
+}
+.footerlog ul {
+   
+   list-style: none;
+}
+
+  .footerlog{
+    display: flex;
+    margin-top: 3cm;
+    border: solid;
+    gap: 3cm;
+
+  }
+
+  .products{
+    margin-left: 420px;
+  }
+  #facebook{
+    
+  }
