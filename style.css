@@ -8,6 +8,16 @@
 
     
 }
+
+
+@media only screen and (max-width: 600px) 
+    .navigation {grid-area: 1 / span 6;}
+    .container {grid-area: 2 / span 6;}
+    .icon-img {grid-area: 3 / span 6;}
+    .user-features {grid-area: 4 / span 6;}
+    .footerlog {grid-area: 5 / span 6;}
+
+
 .navigation{
    background-color: rgba(0, 255, 255, 0.144);
 }
@@ -358,12 +368,7 @@ display: flex;
 gap: 2cm;
 }
 
-@media only screen and (max-width: 600px) 
-    .navigation {grid-area: 1 / span 6;}
-    .container {grid-area: 2 / span 6;}
-    .icon-img {grid-area: 3 / span 6;}
-    .user-features {grid-area: 4 / span 6;}
-    .footerlog {grid-area: 5 / span 6;}
+
 
 
 
